@@ -1,0 +1,8 @@
+Greetings {},
+
+This is my message. Custom message is: {}.
+
+Thanks!
+
+Sincerely,
+{}
