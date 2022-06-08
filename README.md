@@ -1,16 +1,10 @@
 # Automated Customized Mass Emailer
 
-Before you run this program, make sure you have python3 installed on your machine. Otherwise, the program won't work. Once you have installed python3, run the command:
+Before you run this program, make sure you have python3 installed on your machine. Otherwise, the program won't work. Once you have installed python3, install the package dependencies.
 
-	pip install openpyxl
+	pip3 install -r requirements.txt
 
-This library is crucial for you to be able to run this program.
-
-_ON THE FLIP SIDE_, if you are comfortable running a virtual environment on your computer, all you have to do is enter the command below:
-
-	. venv/bin/activate
-
-and you will be ready to run the program. To exit the venv, use the command `ctrl-d`.
+and you will be ready to run the program.
 
 ## Introduction
 
@@ -21,9 +15,9 @@ As of right now, this program is really simple, and mostly used for easy-use cas
 *message.txt*: This file is where you write your custom email message. The format should be as follows.
 
 > Custom Greeting {},
-> 
+>
 > Any text that you wish to appear. When you need to add your custom message, use the {} tag.
-> 
+>
 > Custom closing,
 > {}
 
